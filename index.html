@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-A-Sketch</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    
+</body>
+</head>
+<body>
+    <div id="container"></div>
+
+    <p id="message">Enjoy Drawing</p>
+
+    <div class="buttons">
+        <button id="prompt" class="btn btn-danger">Settings</button>
+        <button class="btn btn-dark" onclick="setColor('black')">Black</button>
+        <button class="btn btn-warning" onclick="setColor('random')">Random</button>
+        <button class="btn btn-primary" onclick="resetBoard()">Reset</button>
+    </div>
+
+    <script src="script.js"></script>
+</html>
